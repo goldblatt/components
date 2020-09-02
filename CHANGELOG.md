@@ -9,11 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `useClickable` hook
 - `InputChips` and `SelectMulti` chip selection and copy-pasting
 - `Select` now supports `showCreate` and `formatCreateLabel` that were previously only supported in `SelectMulti`
 
 ### Changed
 
+- `Chip`/`ChipButton` now call `onClick` on enter or space key
 - `Tree` child `AccordionDisclosure` now receives font-weight value from styled-components selector
 
 ### Fixed
