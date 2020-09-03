@@ -57,6 +57,7 @@ exports[`Chip renders correctly 1`] = `
 
 <span
   className="c0 "
+  onBlur={[Function]}
   onClick={[Function]}
   onKeyDown={[Function]}
   onKeyUp={[Function]}
@@ -129,6 +130,7 @@ exports[`Chip renders disabled 1`] = `
 <span
   className="c0 "
   disabled={true}
+  onBlur={[Function]}
   onClick={[Function]}
   onKeyDown={[Function]}
   onKeyUp={[Function]}
